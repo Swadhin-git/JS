@@ -36,7 +36,7 @@ let ne=array.concat(array2); // here we are add two array proporlly
 let array3=[10,20,30];
 
 // spred operator***********************
-// let sp=[...array,...array2,...array3]; /* by using sprade we can add  two or more arrray simoltaniously 
+let sp=[...array,...array2,...array3]; /* by using sprade operator we can add  two or more arrray simoltaniously 
 //                                           just use three dot's  before array name*/
 // console.log(sp);
 

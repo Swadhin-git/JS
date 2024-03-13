@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning </title>
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body class="bg-black">
+    <div>
+        <h1 id="tittle" class="heading">DOM Learning <span style="display: none;">text text</span></h1>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, modi.</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+    </div>
+</body>
+
+</html>
+
+
+<!--
+    in dom object we will learn about selector tags like using dom we can get elements, edit them, change them
+    getElementBY....()
+    =>getElementById()
+        ex->document.getElementById("tittle"); -> by this we can get the element.
+            document.getElementById("firstHeading").innerHTML="<h1> swadhin </h1>" -> hear we are change the inner element to swadhin
+            document.getElementById("tittle").className; -> 'heading'
+            document.getElementById("tittle").getAttribute('class'); ->'heading'
+            document.getElementById("tittle").getAttribute("id"); ->'tittle'
+            document.getElementById("tittle").setAttribute('class','test heading'); -> it will change the arrteibute form heading to "test heading"
+
+        const tittle= document.getElementById("tittle"); -> here we are storing our tittle element to a variable.
+        then we can add new new element on it like ...
+            tittle.style.backgroundColor="green";
+            tittle.style.padding="4px";
+            tittle.style.borderRight="30px";
+    
+    => suppose we have to retrive some content from tittle then we have some attribute for that
+    tittle.innerText -> by using innerText we get only the content which will not hidden by using css span style
+    'DOM Learning'
+    tittle.textContent -> by using textContent we get full content
+    'DOM Learning text text'
+    tittle.innerHTML -> by using this we can get all tags within it
+    'DOM Learning <span style="display: none;">text text</span>'
+
+    =>querySelector()
+
+
+
+
+
+-->
